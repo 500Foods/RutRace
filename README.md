@@ -1,6 +1,6 @@
-# Template
+# www.rut-race.com
 
-This repository contains...
+This repository contains the source code for www.rut-race.com. This is a personal task manager, built with TMS WEB Core and TMS XData, which in turn are built on top of Delphi.
 
 ## Key Dependencies
 As with any modern web application, other JavaScript libraries/dependencies have been used in this project. Most of the time, this is handled via a CDN link (usually JSDelivr) in the Project.html file. In some cases, for performance or other reasons, they may be included directly.
