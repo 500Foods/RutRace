@@ -1,6 +1,6 @@
 object Form1: TForm1
   Width = 640
-  Height = 480
+  Height = 672
   object WebLabel1: TWebLabel
     Left = 176
     Top = 72
