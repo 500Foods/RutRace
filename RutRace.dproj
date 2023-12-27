@@ -3,7 +3,7 @@
         <ProjectGuid>{AF017F5B-5504-4557-9F63-BC34AE8CB544}</ProjectGuid>
         <ProjectVersion>18.7</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
-        <MainSource>Project1.dpr</MainSource>
+        <MainSource>RutRace.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
@@ -58,10 +58,10 @@
         <TMSWebPWA>2</TMSWebPWA>
         <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
-        <TMSWebPWAResIconLowFile>IconResLow.png</TMSWebPWAResIconLowFile>
-        <TMSWebHTMLFile>Project1.html</TMSWebHTMLFile>
+        <SanitizedProjectName>RutRace</SanitizedProjectName>
         <TMSPWAManifestFile>Manifest.json</TMSPWAManifestFile>
-        <SanitizedProjectName>Project1</SanitizedProjectName>
+        <TMSWebHTMLFile>RutRace.html</TMSWebHTMLFile>
+        <TMSWebPWAResIconLowFile>IconResLow.png</TMSWebPWAResIconLowFile>
         <TMSWebPWAServiceWorkerFile>serviceworker.js</TMSWebPWAServiceWorkerFile>
         <TMSWebPWAResIconMidFile>IconResMid.png</TMSWebPWAResIconMidFile>
         <TMSWebPWAResIconHighFile>IconResHigh.png</TMSWebPWAResIconHighFile>
@@ -92,6 +92,8 @@
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -115,7 +117,7 @@
             <FormType>dfm</FormType>
             <DesignClass>TWebForm</DesignClass>
         </DCCReference>
-        <None Include="Project1.html"/>
+        <None Include="RutRace.html"/>
         <None Include="Manifest.json"/>
         <None Include="serviceworker.js"/>
         <RcItem Include="IconResHigh.png">
@@ -130,6 +132,7 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>PngImage_3</ResourceId>
         </RcItem>
+        <None Include="RutRace.css"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -148,8 +151,17 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">Project1.dpr</Source>
+                    <Source Name="MainSource">RutRace.dpr</Source>
                 </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="C:\Program Files (x86)\Steema Software\Steema TeeChart Standard VCL FMX 2022.35\Delphi26\Delphi26.win32\Bin\DclTee926.bpl">TeeChart Standard 2022 Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k260.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp260.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\TMSFNCCorePkgDEDXE12.bpl">TMS FNC Core for FMX/VCL Designtime</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\TMSFNCChartPkgDEDXE12.bpl">TMS FNC Chart for FMX/VCL Designtime</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\TMSFNCUIPackPkgDEDXE12.bpl">TMS FNC UI Pack for FMX/VCL Designtime</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\TMSFNCWXPackPkgDEDXE12.bpl">TMS FNC WX Pack for FMX/VCL Designtime</Excluded_Packages>
+                </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
                 <DeployFile LocalName="IconResHigh.png" Configuration="Debug" Class="ProjectFile">
@@ -159,6 +171,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Project1.html" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Untitled1.css" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -176,9 +194,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\RutRace.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>Project1.exe</RemoteName>
+                        <RemoteName>RutRace.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
