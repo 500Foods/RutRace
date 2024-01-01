@@ -28,23 +28,23 @@ While this project is currently under active development, feel free to give it a
 [![Count Lines of Code](https://github.com/500Foods/RutRace/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/RutRace/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last updated at 2024-01-01 06:20:14 UTC
+Last updated at 2024-01-01 21:53:14 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Pascal                          17           1535           2768          12979
+Pascal                          17           1535           2768          12980
 Markdown                         9             42              4            265
-Delphi Form                      4              0              0            180
-HTML                             2              9              6             42
+Delphi Form                      4              0              0            199
+HTML                             2              9              7             41
 YAML                             2              8             13             35
 JSON                             1              0              0             34
 JavaScript                       1              3              0             25
-CSS                              1              0              0              4
+CSS                              1              1              2             23
 Text                             1              0              0              1
 -------------------------------------------------------------------------------
-SUM:                            38           1597           2791          13565
+SUM:                            38           1598           2794          13603
 -------------------------------------------------------------------------------
-18 Files (without source code) were skipped
+30 Files (without source code) were skipped
 ```
 <!--CLOC-END-->
 
