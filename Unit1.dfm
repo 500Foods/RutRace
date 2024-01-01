@@ -2,24 +2,43 @@ object Form1: TForm1
   Width = 640
   Height = 672
   CSSLibrary = cssBootstrap
+  ElementClassName = 
+    'd-flex flex-column h-100 w-100 bg-transparent justify-content-ce' +
+    'nter align-items-center'
   ElementFont = efCSS
-  object WebLabel1: TWebLabel
-    Left = 176
-    Top = 72
-    Width = 44
-    Height = 13
-    Caption = 'Rut Race'
-    ElementFont = efCSS
-    HeightPercent = 100.000000000000000000
-    WidthPercent = 100.000000000000000000
-  end
-  object WebHTMLDiv1: TWebHTMLDiv
-    Left = 176
-    Top = 120
-    Width = 297
-    Height = 113
+  object divHeader: TWebHTMLDiv
+    Left = 88
+    Top = 91
+    Width = 400
+    Height = 100
+    ElementClassName = 'd-flex flex-row justify-content-between'
     ChildOrder = 1
+    ElementPosition = epRelative
     ElementFont = efCSS
     Role = ''
+    object WebHTMLDiv1: TWebHTMLDiv
+      Left = 3
+      Top = 0
+      Width = 100
+      Height = 100
+      ElementPosition = epRelative
+      ElementFont = efCSS
+      HTML.Strings = (
+        '<img src="images/rut-race-logo-100-transparent.png" />')
+      Role = ''
+    end
+    object WebHTMLDiv2: TWebHTMLDiv
+      Left = 109
+      Top = 0
+      Width = 300
+      Height = 100
+      ElementClassName = 'd-flex text-white justify-content-center align-items-center'
+      ChildOrder = 1
+      ElementPosition = epRelative
+      ElementFont = efCSS
+      HTML.Strings = (
+        'On your marks... arriving early 2024')
+      Role = ''
+    end
   end
 end

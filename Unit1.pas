@@ -9,8 +9,9 @@ uses
 
 type
   TForm1 = class(TWebForm)
-    WebLabel1: TWebLabel;
+    divHeader: TWebHTMLDiv;
     WebHTMLDiv1: TWebHTMLDiv;
+    WebHTMLDiv2: TWebHTMLDiv;
   private
     { Private declarations }
   public
