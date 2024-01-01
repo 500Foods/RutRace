@@ -1,4 +1,4 @@
-program XDataServer;
+program RutRaceServer;
 
 uses
   Vcl.Forms,

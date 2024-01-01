@@ -41,11 +41,11 @@ procedure TServerContainer.DataModuleCreate(Sender: TObject);
 begin
   // Setup Swagger Header
   TXDataModelBuilder.LoadXMLDoc(XDataServer.Model);
-  XDataServer.Model.Title := 'XData Template Demo API';
+  XDataServer.Model.Title := 'www.rut-race.com REST API';
   XDataServer.Model.Version := '1.0';
   XDataServer.Model.Description :=
     '### Overview'#13#10 +
-    'This is the REST API for interacting with the XData Template Demo.';
+    'This is the REST API for interacting with the backend services powering www.rut-race.com.';
 end;
 
 end.
