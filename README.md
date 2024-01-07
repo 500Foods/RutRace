@@ -28,7 +28,7 @@ While this project is currently under active development, feel free to give it a
 [![Count Lines of Code](https://github.com/500Foods/RutRace/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/RutRace/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last updated at 2024-01-07 06:21:12 UTC
+Last updated at 2024-01-07 06:22:12 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -44,7 +44,7 @@ Text                             1              0              0              1
 -------------------------------------------------------------------------------
 SUM:                            39           1599           2796          13729
 -------------------------------------------------------------------------------
-215 Files (without source code) were skipped
+212 Files (without source code) were skipped
 ```
 <!--CLOC-END-->
 
