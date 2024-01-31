@@ -41,4 +41,28 @@ object Form1: TForm1
       Role = ''
     end
   end
+  object WebButton1: TWebButton
+    Left = 8
+    Top = 296
+    Width = 96
+    Height = 25
+    Caption = 'WebButton1'
+    ChildOrder = 1
+    ElementClassName = 'btn btn-light'
+    ElementFont = efCSS
+    HeightStyle = ssAuto
+    HeightPercent = 100.000000000000000000
+    WidthPercent = 100.000000000000000000
+    OnClick = WebButton1Click
+  end
+  object imgpreview: TWebHTMLDiv
+    Left = 224
+    Top = 248
+    Width = 344
+    Height = 321
+    ElementID = 'imgpreview'
+    ChildOrder = 2
+    ElementFont = efCSS
+    Role = ''
+  end
 end
