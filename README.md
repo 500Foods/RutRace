@@ -28,11 +28,11 @@ While this project is currently under active development, feel free to give it a
 [![Count Lines of Code](https://github.com/500Foods/RutRace/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/RutRace/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last updated at 2024-01-31 11:45:42 UTC
+Last updated at 2024-02-01 07:29:12 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-Pascal                          17           1561           2844          12999
+Pascal                          17           1536           2882          12986
 Markdown                         9             42              4            265
 Delphi Form                      4              0              0            223
 JSON                             2              0              0            126
@@ -42,7 +42,7 @@ JavaScript                       1              3              0             25
 CSS                              1              1              2             23
 Text                             1              0              0              1
 -------------------------------------------------------------------------------
-SUM:                            39           1627           2872          13772
+SUM:                            39           1602           2910          13759
 -------------------------------------------------------------------------------
 212 Files (without source code) were skipped
 ```
